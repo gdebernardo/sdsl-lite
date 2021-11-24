@@ -433,6 +433,14 @@ class k2_tree
             return k_l;
         }
 
+        uint8_t get_k() {
+            return k_k;
+        }
+
+        uint16_t get_height() {
+            return k_height;
+        }
+        
         //! Indicates whether node j is adjacent to node i or not.
         /*!
          *  \param i Node i.
