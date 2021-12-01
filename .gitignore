@@ -1,1 +1,4 @@
 Make.helper
+/cmake-build-debug/
+.idea
+/build/
