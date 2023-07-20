@@ -423,12 +423,12 @@ class k2_tree
             return true;
         }
 
-        t_bv get_t()
+        t_bv &get_t()
         {
             return k_t;
         }
 
-        t_bv get_l()
+        t_bv &get_l()
         {
             return k_l;
         }
@@ -441,7 +441,7 @@ class k2_tree
             return k_height;
         }
 
-        t_rank get_rank() {
+        t_rank &get_rank() {
             return k_t_rank;
         }
 
